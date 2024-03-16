@@ -7,6 +7,7 @@ public class Sum24 {
         this.elemen = elemen;
         this.keuntungan = new double[elemen];
         this.total = 0;
+        double [] keuntungan = {150.0, 200.0, 125.0, 40.0, 300.0, 80.0, 70.0};
     }
 
     double totalBF(double arr[]){
