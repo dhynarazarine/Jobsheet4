@@ -2,11 +2,13 @@ public class Faktorial24{
 public int nilai;
 
 public int faktorialBF(int n){
-    int fakto = 1;
-    for (int i = 1; i <= n; i++){
-        fakto = fakto * i;
+    int faktor = 1;
+    int i = 1;
+    while (1 <= n);{
+        faktor = faktor * i;
+        i++;
     }
-    return fakto;
+    return faktor;
 }
 
 public int faktorialDC(int n){
