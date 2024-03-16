@@ -9,12 +9,12 @@ public class MainPangkat24 {
 
         Pangkat24[] png = new Pangkat24[elemen];
 
-        for(int i = 0; i < elemen; i++){
-            png[i] = new Pangkat24();
-            System.out.print("Masukkan nilai yang akan dipangkatkan ke-"+(i+1)+": ");
-            png[i].nilai = sc.nextInt();
-            System.out.print("Masukkan nilai pemangkat ke-"+(i+1)+": ");
-            png[i].pangkat = sc.nextInt();
+        for (int i = 0; i < elemen; i++) {
+            System.out.print("Masukkan nilai yang akan dipangkatkan ke-" + (i + 1) + ": ");
+            int nilai = sc.nextInt();
+            System.out.print("Masukkan nilai pemangkat ke-" + (i + 1) + ": ");
+            int pangkat = sc.nextInt();
+            png[i] = new Pangkat24(nilai, pangkat);
         }
 
         System.out.println("===================================================");
